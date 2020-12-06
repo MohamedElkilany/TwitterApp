@@ -7,13 +7,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeVC: UICollectionViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        collectionView.backgroundColor = .red
     }
-
 
 }
 
